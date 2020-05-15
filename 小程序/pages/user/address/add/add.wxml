@@ -1,0 +1,31 @@
+<!--pages/user/address/add/add.wxml-->
+<view class="list">
+<span>收货姓名</span>
+<input type="text" placeholder="请填写姓名"></input>
+</view>
+<view class="list">
+<span>手机号码</span>
+<input type="text" placeholder="请填写手机号码"></input>
+</view>
+<view class="list">
+<span>省、市、区</span>
+ <picker mode="region" bindchange="bindRegionChange" value="{{region}}" custom-item="{{customItem}}">
+   <view class="picker">
+   {{region[0]}} {{region[1]}} {{region[2]}}
+   <image src="/img/heirig.png"></image>
+   </view>
+ </picker>
+
+</view>
+<view class="list">
+<span>详细地址</span>
+<input type="text" placeholder="例如街道名称，楼层和门牌号"></input>
+</view>
+<view class="list">
+<span>设为默认地址</span>
+<switch color="#FF853A" bindchange="switch1Change"/>
+</view>
+<view bindtap="add" class="but">
+新增收货地址
+</view>
+    

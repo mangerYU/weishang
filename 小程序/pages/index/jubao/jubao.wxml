@@ -1,0 +1,56 @@
+<!--pages/index/jubao/jubao.wxml-->
+<view class="content">
+
+<view class="title" style="margin-top:50rpx;">
+被举报人信息
+</view>
+
+<view class="type" style=" border-top: 10rpx solid #EEEEEE;">
+<span style="">请选择代理商</span>
+
+<view class="select_box">
+  <view class='select' catchtap='selectTap'>
+        <text class='select_text'>{{selectData[index]}}</text> 
+        <image class='select_img {{show&&"select_img_rotate"}}' src='/img/heirig.png'></image>
+  </view>
+      <view class='option_box' style='height:{{show?(selectData.length>5?300:selectData.length*60):0}}rpx;'>
+        <text class='option' style='{{index==selectData.length-1&&"border:0;"}}' wx:for='{{selectData}}' wx:key='this' data-index='{{index}}' catchtap='optionTap'>{{item}}          </text>
+      </view>
+      
+</view>
+<!-- <image src="/img/heirig.png"></image> -->
+
+
+</view>
+<view class="upload comm">
+<view class="texts">相关证据</view>
+
+<view class="pzimg">
+<block wx:key="imgbox" wx:for="{{imgbox}}">
+<image class="addimg" src="{{item}}"></image>
+<view class="dele" data-deindex='{{index}}' bindtap="imgDelete1">
+<image class="deleimg" src="/img/deleimg.png"></image>
+</view>
+</block>
+<view class="addimg" bindtap="addPic1" wx:if="{{imgbox.length<3}}">
+<image class="addimg" src="/img/addimg.png"></image>
+</view>
+
+</view>
+
+
+</view>
+<view class="title">
+详细描述
+</view>
+<view class="text">
+<textarea placeholder="请输入您的描述内容">
+
+</textarea>
+</view>
+
+<view class="sub">提交</view>
+
+
+
+</view>

@@ -1,0 +1,39 @@
+<!--pages/user/shouyi/shouyi.wxml-->
+<view class="top" hidden="{{currentTab!=0}}">
+<span style="font-size:32rpx;">月收益(元)</span>
+<span style="font-size:56rpx;">13266.46</span>
+</view>
+<view class="top" hidden="{{currentTab!=1}}">
+<span style="font-size:32rpx;">总收益(元)</span>
+<span style="font-size:56rpx;">13266.46</span>
+</view>
+
+<view class="navbar">
+  <text wx:for="{{navbar}}" data-idx="{{index}}" class="item {{currentTab==index ? 'active' : ''}}" wx:key="unique" bindtap="navbarTap">{{item}}</text>
+</view>
+ 
+<!---->
+<view hidden="{{currentTab!=0}}">
+<view class="list"> 
+<span style="">提货</span>
+<span style="color:#999999;">2019-09-16</span>
+<span style="font-size:32rpx;">￥120.3</span>
+</view>
+
+</view>
+ 
+<!---->
+<view hidden="{{currentTab!=1}}">
+<view class="list"> 
+<span>2019/09-2019/10</span>
+<span style="font-size:32rpx;">￥120.3</span>
+</view>
+
+</view>
+ 
+
+
+
+
+
+

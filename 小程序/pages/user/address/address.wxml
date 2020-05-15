@@ -1,0 +1,23 @@
+<view class="list">
+<view class="row" style="font-size:30rpx;">
+<span>刑月</span>
+<span>17630841488</span>
+</view>
+<view style="font-size:26rpx;">河南省-郑州市-建正东方中心</view>
+
+<view class="row" style="font-size:26rpx;">
+<view>
+<checkbox></checkbox>
+<text>设为默认</text>
+</view>
+
+<view class="row">
+<view class="dele">删除</view>
+<view class="txt" bindtap="alter">编辑</view>
+</view>
+</view>
+</view>
+
+<view bindtap="add" class="but">
+新增收货地址
+</view>

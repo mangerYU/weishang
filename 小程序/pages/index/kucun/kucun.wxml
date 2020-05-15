@@ -1,0 +1,43 @@
+<!--pages/index/kucun/kucun.wxml-->
+<view class="top">
+  <image class="search-icon" src="/img/sou.png"></image>
+	<input type="text" id="search" placeholder="请输入商品关键词"/>
+	<image class="more-icon" bindtap="hiddens" src="/img/sort.png"></image>
+</view>
+
+
+<view class="shows hide{{shows?'show':''}}" >
+<view class="comm">
+<view class="left row">
+<image src="/img/user.png"></image>
+<view class="column" style="line-height: 50rpx;">
+<span>我是产品名称</span>
+<span style="color:#EB2B2B;">￥ 299.0元</span>
+</view>
+</view>
+<view class="right">
+<span style="font-size:24rpx;">库存：120</span>
+</view>
+</view>
+</view>
+
+<view class="content hide{{shows?'':'show'}}" >
+<view class="mer">
+<image src="/img/user.png"></image>
+<span style="color:#FF853A;">￥399</span>
+<span>我是产品名称</span>
+</view>
+<view class="mer">
+<image src="/img/user.png"></image>
+<span style="color:#FF853A;">￥399</span>
+<span>我是产品名称</span>
+</view>
+<view class="mer">
+<image src="/img/user.png"></image>
+<span style="color:#FF853A;">￥399</span>
+<span>我是产品名称</span>
+</view>
+</view>
+
+
+

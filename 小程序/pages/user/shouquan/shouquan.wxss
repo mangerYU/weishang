@@ -1,0 +1,49 @@
+/* pages/user/shouquan/shouquan.wxss */
+image{
+width: 93%;
+height: 90vh;
+margin:3.5%;
+}
+.title{
+    width: 70%;
+    height: 300rpx;
+    position: absolute;
+    top: 46%;
+    left:13%;
+    font-size: 26rpx;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: #333;
+    border: 0rpx;
+    line-height: 50rpx;
+  }
+  .title input{
+    width:200rpx;
+    border-bottom: 3rpx solid #333;
+  }
+  .title span{
+    display: flex;
+    flex-direction: row;
+  }
+  .time{
+			width: 90%;
+			height:80rpx;
+			position: absolute;
+			bottom: 15%;
+			left: 5%;
+      line-height: 50rpx;
+			font-size: 26rpx;
+			display: flex;
+			flex-direction: row;
+			justify-content: space-around;
+		}
+		.time span{
+			display: flex;
+			flex-direction: column;
+			 align-items:center;
+		}
+		.time span text:last-child{
+			color: #FF853A;
+		}

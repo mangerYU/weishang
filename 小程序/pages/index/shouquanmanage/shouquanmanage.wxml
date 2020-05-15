@@ -1,0 +1,65 @@
+<!--pages/index/shouquanmanage/shouquanmanage.wxml-->
+<view class="top">
+<input placeholder="姓名/手机号/身份证号"></input>
+<view class="butt">查询</view>
+</view>
+<view class="jieguo">
+<view class="list row">
+<view class="left row">
+<view class="column name">
+<image src="/img/user.png"></image>
+<span>李悦溪</span>
+</view>
+<view class="message">
+<span>代理级别:县级代理</span>
+<span>代理级别:13286559556</span>
+</view>
+</view>
+<view class="right">取消授权</view>
+</view>
+
+</view>
+
+
+
+<view class="title">其它代理</view>
+
+<view class="list row">
+<view class="left row">
+<view class="column name">
+<image src="/img/user.png"></image>
+<span>李悦溪</span>
+</view>
+<view class="message">
+<span>代理级别:县级代理</span>
+<span>代理级别:13286559556</span>
+</view>
+</view>
+<view class="right">取消授权</view>
+</view>
+<view class="list row">
+<view class="left row">
+<view class="column name">
+<image src="/img/user.png"></image>
+<span>李悦溪</span>
+</view>
+<view class="message">
+<span>代理级别:县级代理</span>
+<span>代理级别:13286559556</span>
+</view>
+</view>
+<view class="right">取消授权</view>
+</view>
+<view class="list row">
+<view class="left row">
+<view class="column name">
+<image src="/img/user.png"></image>
+<span>李悦溪</span>
+</view>
+<view class="message">
+<span>代理级别:县级代理</span>
+<span>代理级别:13286559556</span>
+</view>
+</view>
+<view class="right">取消授权</view>
+</view>

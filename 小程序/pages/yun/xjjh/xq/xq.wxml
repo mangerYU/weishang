@@ -1,0 +1,31 @@
+<!--pages/index/dailiup/dailiup.wxml-->
+<view class="title">申请人信息</view>
+
+<view class="user">
+<span>姓名：<text>李梦溪</text></span>
+<span>代理等级：<text>市级代理</text></span>
+<span>手机号码：<text>12345678912</text></span>
+</view>
+
+<view class="title">申请补货商品</view>
+
+<view class="grade">
+<view class="comm row">
+<view class="left row">
+<image src="/img/user.png"></image>
+<view class="column" style="line-height: 50rpx;">
+<span>我是产品名称</span>
+<span>+12件</span>
+</view>
+</view>
+
+<view class="right column">
+<span style="font-size:32rpx;">￥1236.0</span>
+</view>
+
+</view>
+</view>
+
+<view class="num">
+正在审核中...
+</view>

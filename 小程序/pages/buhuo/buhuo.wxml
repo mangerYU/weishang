@@ -1,0 +1,22 @@
+<!--pages/buhuo/buhuo.wxml-->
+
+<view bindtap="comm" class="mer">
+<image src="/img/user.png"></image>
+<span style="color:#FF853A;">￥399</span>
+<span>我是产品名称</span>
+</view>
+<view class="mer">
+<image src="/img/user.png"></image>
+<span style="color:#FF853A;">￥399</span>
+<span>我是产品名称</span>
+</view>
+<view class="mer">
+<image src="/img/user.png"></image>
+<span style="color:#FF853A;">￥399</span>
+<span>我是产品名称</span>
+</view>
+<view class="mer">
+<image src="/img/user.png"></image>
+<span style="color:#FF853A;">￥399</span>
+<span>我是产品名称</span>
+</view>

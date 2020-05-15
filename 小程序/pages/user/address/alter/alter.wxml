@@ -1,0 +1,30 @@
+<!--pages/user/address/add/add.wxml-->
+<view class="list">
+<span>收货姓名</span>
+<input type="text" value="刑月"></input>
+</view>
+<view class="list">
+<span>手机号码</span>
+<input type="text" value="17630841488"></input>
+</view>
+<view class="list">
+<span>省、市、区</span>
+ <picker mode="region" bindchange="bindRegionChange" value="{{region}}" custom-item="{{customItem}}">
+   <view class="picker">
+   {{region[0]}} {{region[1]}} {{region[2]}}
+   <image src="/img/heirig.png"></image>
+   </view>
+ </picker>
+</view>
+<view class="list">
+<span>详细地址</span>
+<input type="text" value="河南省-郑州市-建正东方中心"></input>
+</view>
+<view class="list">
+<span>设为默认地址</span>
+<switch color="#FF853A" bindchange="switch1Change"/>
+</view>
+<view bindtap="add" class="but">
+新增收货地址
+</view>
+    

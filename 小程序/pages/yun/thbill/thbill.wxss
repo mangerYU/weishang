@@ -1,0 +1,73 @@
+/* pages/yun/thbill/thbill.wxss */
+body{
+  background-color: #fafafa;
+}
+.list{
+width: 100%;
+height: 310rpx;
+background-color: #fafafa;
+border-bottom: 10rpx solid #EEEEEE;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+.column{
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+}
+.quxiao{
+  width: 140rpx;
+  height: 40rpx;
+  border-radius: 30rpx;
+  background-color: #FF853A;
+  color: #FFFFFF;
+  font-size: 26rpx;
+  text-align: center;
+}
+.times{
+  width: 93%;
+height: 110rpx;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items:flex-start;
+font-size: 26rpx;
+margin-left: 30rpx;
+border-top: 1rpx solid #EEEEEE;
+border-bottom: 1rpx solid #EEEEEE;
+}
+.time{
+width: 93%;
+height: 60rpx;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+font-size: 26rpx;
+margin-left: 30rpx;
+border-top: 1rpx solid #EEEEEE;
+border-bottom: 1rpx solid #EEEEEE;
+}
+.comm{
+width: 93%;
+height: 140rpx;
+padding: 0rpx 30rpx;
+
+}
+.row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 26rpx;
+}
+.comm image{
+width: 92rpx;
+height: 92rpx;
+margin-right:10rpx;
+}
+.right{
+  font-size:24rpx;
+  align-items: flex-end;
+}

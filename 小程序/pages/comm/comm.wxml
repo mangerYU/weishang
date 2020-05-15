@@ -1,0 +1,83 @@
+<!--pages/comm/comm.wxml-->
+<!--pages/my/myorder/myorder.wxml-->
+
+<view class="navbar">
+  <text wx:for="{{navbar}}" data-idx="{{index}}" class="item {{currentTab==index ? 'active' : ''}}" wx:key="unique" bindtap="navbarTap">{{item}}</text>
+</view>
+ 
+<!---->
+<view hidden="{{currentTab!=0}}">
+
+<view class="list"> 
+<view class="title">推荐下级通知>></view>
+<view class="info">
+<view>恭喜您，成功推荐一位市级代理！</view>
+<view style="display: flex;flex-direction: row; align-items: center;">
+<image src="/img/user.png"></image>
+<view style="display: flex;flex-direction: column;line-height: 50rpx">
+<text>王小月</text>
+<text>13283004559</text>
+</view>
+</view>
+</view>
+<view class="time">
+<image src="/img/time.png"></image>
+2019-09-23
+</view>
+</view>
+
+<view class="list"> 
+<view class="title2">
+<span>商品活动通知</span>
+<p class="but">立即处理</p>
+</view>
+<view class="info">
+<view>恭喜您，成功推荐一位市级代理！</view>
+<view style="display: flex;flex-direction: row; align-items: center;">
+<image src="/img/user.png"></image>
+<view style="display: flex;flex-direction: column;line-height: 50rpx">
+<text>王小月</text>
+<text>13283004559</text>
+</view>
+</view>
+</view>
+<view class="time">
+<image src="/img/time.png"></image>
+2019-09-23
+</view>
+</view>
+
+
+</view>
+ 
+<!---->
+<view hidden="{{currentTab!=1}}">
+<view class="list"> 
+<view class="title2">
+<span style="color:#FF853A;">商品活动通知</span>
+<span style="color:#999999;">查看详情></span>
+</view>
+<view class="info">
+<view>10月1号，商品促销打折</view>
+<view style="display: flex;flex-direction: row; align-items: center;">
+<image src="/img/user.png"></image>
+<view style="display: flex;flex-direction: column;line-height: 50rpx;">
+<span>我是产品名称</span>
+<span>￥ 299.0元
+<text style="text-decoration: line-through;color:#999999;">￥ 399.0元</text>
+</span>
+</view>
+</view>
+</view>
+<view class="time">
+<image src="/img/time.png"></image>
+2019-09-23
+</view>
+</view>
+
+</view>
+ 
+
+
+
+

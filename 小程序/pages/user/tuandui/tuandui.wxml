@@ -1,0 +1,52 @@
+<!--pages/user/tuandui/tuandui.wxml-->
+<view class="top column">
+<image src="/img/user/tuandui.png"></image>
+<span>团队名字</span>
+</view>
+
+<view class="list row">
+<view class="left row">
+<view class="column name">
+<image src="/img/user.png"></image>
+<span>李悦溪</span>
+</view>
+<view class="message">
+<span class="row ">
+<view class="mess">代理级别</view>
+县级代理
+</span>
+<span class="row">
+<view class="mess">代理级别</view>
+13286559556
+</span>
+</view>
+</view>
+<view class="right" bindtap="info">
+查看
+</view>
+</view>
+
+<!-- -->
+
+<view class="list row">
+<view class="left row">
+<view class="column name">
+<image src="/img/user.png"></image>
+<span>李悦溪</span>
+</view>
+<view class="message">
+<span class="row ">
+<view class="mess">代理级别</view>
+县级代理
+</span>
+<span class="row">
+<view class="mess">代理级别</view>
+13286559556
+</span>
+</view>
+</view>
+<view class="right">
+查看
+</view>
+</view>
+

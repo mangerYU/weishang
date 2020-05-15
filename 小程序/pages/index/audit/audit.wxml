@@ -1,0 +1,97 @@
+<view class="navbar">
+  <text wx:for="{{navbar}}" data-idx="{{index}}" class="item {{currentTab==index ? 'active' : ''}}" wx:key="unique" bindtap="navbarTap">{{item}}</text>
+</view>
+ 
+<!---->
+<view hidden="{{currentTab!=0}}">
+<view class="list">
+<view class="time">
+<view style="color:#333333;">申请级别</view>
+<view class="row">
+<span style="color:#FF853A;">市级代理</span>
+</view>
+</view>
+<view class="comm row">
+<view class="left row">
+<image src="/img/user.png"></image>
+<view class="column" style="line-height: 50rpx;">
+<span>姓名：<text>李梦溪</text></span>
+<span>金额：<text>￥5000.0</text></span>
+</view>
+</view>
+<view bindtap="xiangqing" class="right column">
+<span>查看详情></span>
+</view>
+</view>
+<view class="time">
+<view class="row">
+<image src="/img/time.png"></image>
+<span>2019-09-23 14:06</span>
+</view>
+<view style="color:#00C132;">待处理</view>
+</view>
+
+</view>
+
+<!--------------------------->
+<view class="list">
+<view class="time">
+<view style="color:#333333;">申请级别</view>
+<view class="row">
+<span style="color:#FF853A;">市级代理</span>
+</view>
+</view>
+<view class="comm row">
+<view class="left row">
+<image src="/img/user.png"></image>
+<view class="column" style="line-height: 50rpx;">
+<span>姓名：<text>李梦溪</text></span>
+<span>金额：<text>￥5000.0</text></span>
+</view>
+</view>
+<view class="right column">
+<span>查看详情></span>
+</view>
+</view>
+<view class="time">
+<view class="row">
+<image src="/img/time.png"></image>
+<span>2019-09-23 14:06</span>
+</view>
+<view style="color:#00C132;">待处理</view>
+</view>
+
+</view>
+</view>
+<!---->
+<view hidden="{{currentTab!=1}}">
+<view class="list">
+<view class="time">
+<view style="color:#333333;">申请级别</view>
+<view class="row">
+<span style="color:#FF853A;">市级代理</span>
+</view>
+</view>
+<view class="comm row">
+<view class="left row">
+<image src="/img/user.png"></image>
+<view class="column" style="line-height: 50rpx;">
+<span>姓名：<text>李梦溪</text></span>
+<span>金额：<text>￥5000.0</text></span>
+</view>
+</view>
+<view class="right column">
+<span>查看详情></span>
+</view>
+</view>
+<view class="time">
+<view class="row">
+<image src="/img/time.png"></image>
+<span>2019-09-23 14:06</span>
+</view>
+<view style="color:#00C132;">待处理</view>
+</view>
+
+</view>
+
+</view>

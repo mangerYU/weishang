@@ -1,0 +1,89 @@
+/* pages/index/audit/audit.wxss */
+page{
+  height: 100%;
+background-color:#EEEEEE;
+}
+.navbar{
+  flex: none;
+  display: flex;
+  background: #EEEEEE;
+}
+.navbar .item{
+  position: relative;
+  flex: auto;
+  text-align: center;
+  line-height: 80rpx;
+  font-size: 32rpx;
+}
+.navbar .item.active{
+  color: #FF853A;
+  font-size: 32rpx;
+
+}
+.navbar .item.active:after{
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height:6rpx;
+  width: 100%;
+  background: #FF853A;
+}
+.list{
+width: 100%;
+height: 220rpx;
+border: 5px solid #EEEEEE;
+box-shadow:#EEEEEE 0px 4px 6px;
+background-color: #ffffff;
+margin-top:10rpx;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+.column{
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+}
+.time{
+width: 93%;
+height: 40rpx;
+border-bottom: 1rpx solid #EEEEEE;
+border-top: 1rpx solid #EEEEEE;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+font-size: 24rpx;
+margin-left: 30rpx;
+color:#999999; 
+}
+.time image{
+width: 30rpx;
+height: 30rpx;
+}
+.comm{
+width: 93%;
+padding: 0rpx 30rpx;
+
+}
+.row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 26rpx;
+}
+.comm image{
+width: 92rpx;
+height: 92rpx;
+margin-right:10rpx;
+border-radius: 50rpx;
+}
+.right{
+  font-size:24rpx;
+  color: #999999;
+  align-items: flex-end;
+}

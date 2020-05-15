@@ -1,0 +1,28 @@
+<!--pages/tihuo/tihuo.wxml-->
+<view class="comm" bindtap="comm">
+<view class="left row">
+<image src="/img/user.png"></image>
+<view class="column" style="line-height: 50rpx;">
+<span>我是产品名称</span>
+<span style="color:#EB2B2B;">￥ 299.0元</span>
+</view>
+</view>
+
+<view class="right">
+<span style="font-size:24rpx;">库存：120</span>
+</view>
+</view>
+
+<view class="comm" >
+<view class="left row">
+<image src="/img/user.png"></image>
+<view class="column" style="line-height: 50rpx;">
+<span>我是产品名称</span>
+<span style="color:#EB2B2B;">￥ 299.0元</span>
+</view>
+</view>
+
+<view class="right">
+<span style="font-size:24rpx;">库存：120</span>
+</view>
+</view>

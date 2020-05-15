@@ -1,0 +1,141 @@
+/* pages/index/jubao/jubao.wxss */
+.content{
+  width: 100%;
+  height: 100vh;
+  background-color:#ffffff;
+}
+.border{
+   box-shadow:#EEEEEE 0px 4px 6px;
+}
+.type{
+  width: 93%;
+  height: 80rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0rpx 30rpx;
+  margin-top: 30rpx;
+  background-color: #ffffff;
+  border-top: 1rpx solid #EEEEEE;
+  border-bottom: 1rpx solid #EEEEEE;
+  font-size: 28rpx;
+}
+.comm{
+  display: flex;
+  flex-direction: column;
+}
+.row{
+  display: flex;
+  flex-direction: row;
+}
+.type image{
+  width: 20rpx;
+  height:30rpx;
+}
+  .upload{
+    width:100%;
+    height:270rpx;
+    background-color: #ffffff;
+    border-bottom: 10rpx solid #EEEEEE;
+
+  }
+    .texts{
+      font-size: 28rpx;
+      margin: 30rpx;
+    }
+    .sub{
+    width: 334rpx;
+    height: 70rpx;
+    background-color: #FF853A;
+    border-radius: 40rpx;
+    color: #FFFFFF;
+    font-size: 32rpx;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 27%; 
+    margin-top: 100rpx;
+  }
+  .select_box {
+  width:30%;
+  text-align: left;
+  position: relative;
+}
+  .select {
+  box-sizing: border-box;
+  width:100%;
+  height: 86rpx;
+  border-radius: 8rpx;
+  display: flex;
+  align-items: center;
+  padding: 0 20rpx;
+}
+.words_img{
+width: 20rpx;
+height: 20rpx;
+
+}
+.select_text {
+  font-size: 28rpx;
+  flex: 1;
+  color: rgb(102, 102, 102);
+  line-height: 86rpx;
+  height: 86rpx;
+}
+
+.select_img {
+  width: 24rpx;
+  height: 26rpx;
+  display: block;
+  transition: transform 0.3s;
+}
+
+.select_img_rotate {
+  transform: rotate(90deg);
+}
+
+.option_box {
+  position: absolute;
+  top: 86rpx;
+  width: 100%;
+  border: 1px solid #efefef;
+  box-sizing: border-box;
+  height: 0;
+  overflow-y: auto;
+  border-top: 0;
+  background: #fff;
+  transition: height 0.3s;
+  display: flex;
+  flex-direction:column;
+}
+
+.option {
+  display: block;
+  line-height: 40rpx;
+  font-size: 28rpx;
+  border-bottom: 1px solid #efefef;
+  padding: 10rpx;
+  color: rgb(102, 102, 102);
+}
+
+.pzimg{
+width: 100%;
+height: 170rpx;
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+.addimg{
+  width: 124rpx;
+  height:124rpx;
+  margin-left: 10rpx;
+}
+.deleimg{
+width: 40rpx;
+height:40rpx;
+position: relative;
+top: -60rpx;
+right: 30rpx;
+
+}

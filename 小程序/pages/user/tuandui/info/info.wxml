@@ -1,0 +1,59 @@
+<!--pages/user/wsinfo/wsinfo.wxml-->
+<view class="top">
+<image src="/img/user.png"></image>
+<span style="font-size:26rpx;">映月花</span>
+<span class="img">
+<image src="/img/user/vip.png"></image>
+<text style="font-size:22rpx;color:#FF853A;">省级代理</text>
+</span>
+</view>
+
+<view class="info">
+
+<view class="list">
+<span class="img">
+<image src="/img/user/id.png"></image>
+<text>会员ID</text>
+</span>
+<span>6685479</span>
+</view>
+<view class="list">
+<span class="img">
+<image src="/img/user/name.png"></image>
+<text>姓名</text>
+</span>
+<span>刑月</span>
+</view>
+
+<view class="list">
+<span class="img">
+<image src="/img/user/phone.png"></image>
+<text>手机号</text>
+</span>
+<span>17630841489</span>
+</view>
+
+<view class="list">
+<span class="img">
+<image src="/img/user/card.png"></image>
+<text>证件号</text>
+</span>
+<span>412703199806154682</span>
+</view>
+
+</view>
+
+<view class="list">
+<span class="img">
+<image src="/img/user/addres.png"></image>
+<text>授权地区</text>
+</span>
+<span>河南  郑州  金水区</span>
+</view>
+<view class="list">
+<span class="img">
+<image src="/img/user/address.png"></image>
+<text>地址</text>
+</span>
+<span>金水区凤凰花园2号</span>
+</view>

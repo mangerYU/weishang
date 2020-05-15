@@ -1,0 +1,19 @@
+<!--pages/user/shouquan/shouquan.wxml-->
+<image src="/img/user/shouquanbg.png"></image>
+<view class="title">
+          <span> 兹授权 <input />先生</span>
+					<span>为小蚂蚁微商新媒体渠道指定代理商</span>
+					<span>代理权限为<input /></span>
+					<span>授权期间享有我公司品牌权益，同时必须遵守我公司各项制度</span>
+					<span>特此授权:</span>
+</view>
+<view class="time">
+          <span>
+              <text>2019年08月12号</text>
+              <text>生效日期</text>
+            </span>
+            <span>
+              <text>2019年08月12号</text>
+              <text>生效日期</text>
+            </span>
+</view>

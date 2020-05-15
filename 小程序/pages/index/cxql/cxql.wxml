@@ -1,0 +1,23 @@
+<!--pages/index/cxql/cxql.wxml-->
+<view class="top">
+<input placeholder="姓名/手机号/身份证号"></input>
+<view class="butt">查询</view>
+</view>
+
+<view class="jieguo">
+<span>查询结果为：</span>
+<image src="/img/user.png"></image>
+</view>
+
+<view class="bottom">
+<view class="txt">
+<span style="color:#FF853A;font-size:24rpx"><image src="/img/tishi.png"></image>温馨提示</span>
+<span style="color:#999999;font-size:22rpx">
+请输入代理商姓名/手机号/身份证号，即可查询官方授权内容所有
+授权码都是唯一且准确对应代理商资料，请仔细查询对“官方合作伙
+伴”锁出具的授权证书，以便为你提供安全保障和优质的服务。对于
+查询结果或查询结果内容与实际不相符，请谨慎甄别，以免上当受
+骗
+</span>
+</view>
+</view>

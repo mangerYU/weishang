@@ -1,0 +1,242 @@
+/* pages/bohuo/bohuo.wxss */
+body{
+  background-color: #fafafa;
+}
+.types{
+  width: 92%;
+  height: 80rpx;
+  border-top: 1rpx solid #EEEEEE;
+  box-shadow:#EEEEEE 0px 4px 6px;
+  background-color: #fff;
+  margin-top: 30rpx;
+  margin-bottom: 100rpx;
+  font-size: 28rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0rpx 30rpx;
+}
+  .bot{
+    width: 93%;
+    height: 110rpx;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0rpx 30rpx;
+    position: absolute;
+    bottom: 0rpx;
+    font-size: 28rpx;
+    border-top: 10rpx solid #EEEEEE;
+  }
+  .bot image{
+    width: 61rpx;
+    height: 61rpx;
+  }
+  .cli{
+    width: 200rpx;
+    height: 66rpx;
+    font-size: 32rpx;
+    color:#FFFFFF;
+    background-color:#FF853A;
+    margin-left: 10rpx;
+  }
+  .row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  image{
+width: 100%;
+height: 400rpx;
+
+}
+.comname{
+width:93%;
+height: 130rpx;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+padding: 0rpx 30rpx 0rpx 30rpx;
+}
+.left{
+  display: flex;
+  flex-direction: column;
+ line-height: 50rpx;
+  align-items: flex-start;
+  font-size: 32rpx;
+}
+.right{
+color: #999999;
+font-size: 26rpx;
+}
+.carts-num {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  height: 50rpx;
+  border-radius: 60rpx;
+  width: 152rpx;
+  border: 1rpx solid #D2D2D2;
+
+}
+.carts-num .minus, .carts-num .plus {
+  margin: 10rpx;
+  color: #D2D2D2;
+  height: 40rpx;
+  width: 40rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20rpx;
+  font-size: 50rpx;
+}
+
+.carts-num .minus {
+  
+  font-size: 34rpx;
+}
+.view_text_center {
+  font-size: 30rpx;
+  display: inline-block;
+  color: #888;
+  width: 30rpx;
+  height: 40rpx;
+  margin-bottom: 5rpx;
+}
+.carts-num .plus {
+  font-size: 34rpx;
+}
+
+.ber{
+display: flex;
+flex-direction: column;
+align-items: center;
+font-size: 28rpx;
+color: #999999;
+}
+.closeImg image{
+width: 20rpx;
+height: 20rpx;
+}
+/*遮罩层 */  
+.shade{   
+  width:100%;   
+  height:100%;   
+  top:0;   
+  background:rgba(0,0,0,0.5);   
+  overflow: hidden;   
+  /*要显示在wrap的上面 */   
+  z-index: 1;   
+  position: absolute;  
+  }   
+  
+/*显示与隐藏的内容即点击核算后所展示的详细内容 */  
+.conts{   
+  width:582rpx;   
+  height:440rpx;   
+  background-color: white;   
+  position: fixed;   
+  top: 350rpx;   
+  left: 84rpx;
+  text-indent: 60rpx;  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 30rpx;
+  }  
+  .ytop{
+    font-size: 32rpx;
+    margin-top: 40rpx;
+  }
+  row{
+  display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+  }
+  .ytitle{
+    display: flex;
+    flex-direction: column;
+    line-height:60rpx;
+    font-size: 26rpx;
+  }
+    .bott{
+        width:50%;
+        height: 80rpx;
+        font-size: 30rpx;
+        padding-right: 60rpx;
+    }
+    
+/*显示整个conts */  
+.show{   
+  display: block;  
+  }  
+/*隐藏整个conts */  
+.hide{   
+  display: none;  
+  }  
+.select_box {
+  width:50%;
+  text-align: left;
+  position: relative;
+}
+  .select {
+  box-sizing: border-box;
+  width:100%;
+  height: 86rpx;
+  border-radius: 8rpx;
+  display: flex;
+  align-items: center;
+  padding: 0 20rpx;
+}
+.words_img{
+width: 20rpx;
+height: 20rpx;
+
+}
+.select_text {
+  font-size: 28rpx;
+  flex: 1;
+  color: rgb(102, 102, 102);
+  line-height: 86rpx;
+  height: 86rpx;
+}
+
+.select_img {
+  width: 24rpx;
+  height: 26rpx;
+  display: block;
+  transition: transform 0.3s;
+}
+
+.select_img_rotate {
+  transform: rotate(90deg);
+}
+
+.option_box {
+  position: absolute;
+  top: 86rpx;
+  width: 100%;
+  border: 1px solid #efefef;
+  box-sizing: border-box;
+  height: 0;
+  overflow-y: auto;
+  border-top: 0;
+  background: #fff;
+  transition: height 0.3s;
+  display: flex;
+  flex-direction:column;
+}
+
+.option {
+  display: block;
+  line-height: 40rpx;
+  font-size: 28rpx;
+  border-bottom: 1px solid #efefef;
+  padding: 10rpx;
+  color: rgb(102, 102, 102);
+}

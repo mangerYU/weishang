@@ -1,0 +1,74 @@
+<!--pages/comm/comm.wxml-->
+<!--pages/my/myorder/myorder.wxml-->
+
+<view class="navbar">
+  <text wx:for="{{navbar}}" data-idx="{{index}}" class="item {{currentTab==index ? 'active' : ''}}" wx:key="unique" bindtap="navbarTap">{{item}}</text>
+</view>
+ 
+<!---->
+<view hidden="{{currentTab!=0}}">
+<view class="list1">
+<view class="time">
+<view style="color:#999999;">订单号：<text>12131546259854865</text></view>
+<view class="row">
+<span style="color:#FF853A;">未审核</span>
+</view>
+</view>
+<view class="comm row">
+<view class="left row">
+<image src="/img/user.png"></image>
+<view class="column" style="line-height: 50rpx;">
+<span>我是产品名称</span>
+<span>288/件</span>
+</view>
+</view>
+<view bindtap="xiangqing" class="right column">
+<span>8件</span>
+</view>
+</view>
+<view class="times">
+<view class="row">共8件商品</view>
+<view class="colum">
+<span>总计:<text>￥1568</text></span>
+<view class="quxiao" bindtap="xq">查看详情</view>
+</view>
+</view>
+</view>
+
+<!---------------->
+<view class="list">
+<view class="time">
+<view style="color:#999999;">订单号：<text>12131546259854865</text></view>
+<view class="row">
+<span style="color:#FF853A;">未审核</span>
+</view>
+</view>
+<view class="comm row">
+<view class="left row">
+<image src="/img/user.png"></image>
+<view class="column" style="line-height: 50rpx;">
+<span>我是产品名称</span>
+<span>288/件</span>
+</view>
+</view>
+<view bindtap="xiangqing" class="right column">
+<span>8件</span>
+</view>
+</view>
+<view class="time">
+<view class="row">共8件商品</view>
+<view>总计:<text>￥1568</text></view>
+</view>
+</view>
+
+ </view>
+<!---->
+<view hidden="{{currentTab!=1}}">
+2
+</view>
+
+ 
+
+
+
+

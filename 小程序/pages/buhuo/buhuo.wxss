@@ -1,0 +1,22 @@
+/* pages/buhuo/buhuo.wxss */
+page{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.mer{
+    width:46%;
+    height: 416rpx;
+    border-bottom: 4rpx solid #EEEEEE;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:flex-start;
+    padding-left: 30rpx;
+     font-size: 30rpx;
+
+}
+.mer image{
+  width: 340rpx;
+  height: 304rpx;
+}

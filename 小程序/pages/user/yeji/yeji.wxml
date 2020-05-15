@@ -1,0 +1,62 @@
+<!--pages/user/yeji/yeji.wxml-->
+<view class="top">
+<span style="font-size:32rpx;">本月业绩(元)</span>
+<span style="font-size:56rpx;">13266.46</span>
+</view>
+
+<view class="list column">
+
+<view class="time">
+<view>时间</view>
+<view class="row">
+<image src="/img/time.png"></image>
+<span>2019-09-23 14:06</span>
+</view>
+</view>
+
+<view class="comm row">
+
+<view class="left row">
+<image src="/img/user.png"></image>
+<view class="column" style="line-height: 50rpx;">
+<span>我是产品名称</span>
+<span>12件</span>
+</view>
+</view>
+
+<view class="right column">
+<span style="font-size:32rpx;">￥1669.0</span>
+<span>拨货</span>
+</view>
+
+</view>
+</view>
+
+<!--  -->
+<view class="list column">
+
+<view class="time">
+<view>时间</view>
+<view class="row">
+<image src="/img/time.png"></image>
+<span>2019-09-23 14:06</span>
+</view>
+</view>
+
+<view class="comm row">
+
+<view class="left row">
+<image src="/img/user.png"></image>
+<view class="column" style="line-height: 50rpx;">
+<span>我是产品名称</span>
+<span>12件</span>
+</view>
+</view>
+
+<view class="right column">
+<span style="font-size:32rpx;">￥1669.0</span>
+<span>拨货</span>
+</view>
+
+</view>
+</view>

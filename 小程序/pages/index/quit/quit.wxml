@@ -1,0 +1,27 @@
+<!--pages/index/quit/quit.wxml-->
+<view class="content">
+<view class="quit">
+<span class="row">
+<image src="/img/index/la.png"></image>
+<text style="font-size:30rpx;color:#FF853A;">退出须知！</text>
+</span>
+<span>1、代理商自动放弃品牌代理权并解除与公司的合作协议</span>
+<span>2、请按以下要求填写退出理由并提交</span>
+<span>3、账户金额与其他退款将由客服人员沟通处理</span>
+</view>
+
+<view class="title">
+退出原因
+</view>
+<view class="text">
+<textarea placeholder="请输入您的退出原因">
+
+</textarea>
+</view>
+
+<view class="sub">提交</view>
+
+
+</view>
+
+

@@ -1,0 +1,36 @@
+/* pages/comm/comm.wxss */
+page{
+  /* display: flex;
+  flex-direction: column; */
+  height: 100%;
+background-color:#fafafa;
+}
+.navbar{
+  flex: none;
+  display: flex;
+  background: #EEEEEE;
+}
+.navbar .item{
+  position: relative;
+  flex: auto;
+  text-align: center;
+  line-height: 80rpx;
+  font-size: 32rpx;
+}
+.navbar .item.active{
+  color: #FF853A;
+  font-size: 32rpx;
+
+}
+.navbar .item.active:after{
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height:6rpx;
+  width: 100%;
+  background: #FF853A;
+
+}

@@ -1,0 +1,58 @@
+<!--pages/yun/yun.wxml-->
+<view class="banner">
+<image src="/img/yun/banner.png"></image>
+</view>
+<view class="top row "> 
+<view class="nav"></view>
+<view class="nav"></view>
+</view>
+<view class="top row "> 
+<view bindtap="jhbill" class="li column">
+<image src="/img/yun/jhlist.png"></image>
+进货单
+</view>
+<view bindtap="thbill" class="li column">
+<image src="/img/yun/thlist.png"></image>
+提货单
+</view>
+<view bindtap="xjjh" class="li column">
+<image src="/img/yun/xjjh.png"></image>
+下级进货
+</view>
+<view bindtap="ku" class="li column">
+<image src="/img/yun/exitku.png"></image>
+出入库
+</view>
+</view>
+
+
+<view class="content">
+<view class="title">我的库存</view>
+
+<scroll-view scrolly-y = true bindscrolltolower="loadMore" bindscrolltoupper="refesh">
+<view class="list">
+<view class="row">
+<image src="/img/yun/banner.png"></image>
+<view class="column">
+<text>我是产品名称</text>
+<text style="color:#EB2B2B;">￥ 299.0元</text>
+</view>
+</view>
+<view style="color:#666666; margin-top: 50rpx;margin-right:20rpx;">库存：120</view>
+</view>
+
+<view class="list">
+<view class="row">
+<image src="/img/yun/banner.png"></image>
+<view class="column">
+<text>我是产品名称</text>
+<text style="color:#EB2B2B;">￥ 299.0元</text>
+</view>
+</view>
+<view style="color:#666666; margin-top: 50rpx;margin-right:20rpx;">库存：120</view>
+</view>
+</scroll-view>
+
+</view>
+
+

@@ -1,0 +1,10 @@
+{
+  "usingComponents": {},
+  "navigationBarTitleText": "我的库存",
+  "navigationBarBackgroundColor": "#FF853A",
+  "navigationBarTextStyle": "white",
+  "backgroundColor": "#EEEEEE",
+  "enablePullDownRefresh": true,
+  "onReachBottomDistance": 50,
+  "backgroundTextStyle":"dark"
+}

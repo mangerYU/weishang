@@ -1,0 +1,33 @@
+
+<image src="/img/bigcom.png"></image>
+<view class="comname">
+<view class="left">
+<span>{{title}}</span>
+<span style="color:#FF0202;">￥{{price}}</span>
+</view>
+<!-- <view class="right" style="margin-top: 30rpx;">库存：120</view> -->
+</view>
+
+<view class="number">
+<span style="font-size: 28rpx;">订货数量</span>
+<view class="ber">
+ <view class="carts-num"> 
+          <lable class="minus" bindtap="btn_minus" data-obj="{{obj}}" data-index="{{index}}">-</lable>
+          <label class="view_text_center"  bindinput='input_num' data-index="{{index}}">{{num}}</label>
+          <lable class="plus" bindtap="btn_add" data-index="{{index}}">+</lable>     
+  </view>
+ <span>共<text>{{num}}</text>套</span>
+</view>  
+</view>
+
+<view class="num">
+<view>总计：</view>
+<view style="color:#FF0202;">￥399.00</view>
+</view>
+
+<view class="bot">
+<view class="right">
+<view class="cli" style="color:#333333;border:2rpx solid #999999;">加入清单</view>
+<view bindtap="cert" class="cli" style="color:#FFFFFF;background-color:#FF853A; ">立即下单</view>
+</view>
+</view>

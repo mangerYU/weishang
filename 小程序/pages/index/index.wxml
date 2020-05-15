@@ -1,0 +1,97 @@
+<!--index.wxml-->
+
+<view class="head">
+<image src="/img/index/banner.png"></image>
+<view class="top around">
+
+<view bindtap="dailiup" class="list">
+<image src="/img/index/dlsj.png"></image>
+<view>代理升级</view>
+</view>
+<view bindtap="kucun" class="list">
+<image src="/img/index/kucun.png"></image>
+<view>我的库存</view>
+</view>
+<view bindtap="invite" class="list">
+<image src="/img/index/yqdl.png"></image>
+<view>邀请代理</view>
+</view>
+<view bindtap="cxql" class="list">
+<image src="/img/index/sqcha.png"></image>
+<view>授权查询</view>
+</view>
+
+</view>
+</view>
+
+
+<view class="content" style=" margin-top:60px">
+<view class="title">团队管理</view>
+<view class="around">
+<view bindtap="yeji" class="list cont">
+<image src="/img/index/yeji.png"></image>
+<view>我的业绩</view>
+</view>
+<view bindtap="audit" class="list cont">
+<image src="/img/index/message.png"></image>
+<view>审核管理</view>
+</view>
+<view  bindtap="shouquanmanage" class="list cont">
+<image src="/img/index/shouquan.png"></image>
+<view>授权管理</view>
+</view>
+</view>
+</view>
+
+<view class="content">
+<view class="title">订单管理</view>
+<view class="around">
+<view bindtap="buhuo" class="list cont">
+<image src="/img/index/buhuo.png"></image>
+<view>我要补货</view>
+</view>
+<view bindtap="bohuo" class="list cont">
+<image src="/img/index/bohuo.png"></image>
+<view>下级拨货</view>
+</view>
+<view bindtap="yunjl" class="list cont">
+<image src="/img/index/yunrecode.png"></image>
+<view>云仓记录</view>
+</view>
+</view>
+</view>
+
+<view class="content">
+<view class="title">其它管理</view>
+<view class="around">
+<view bindtap="quit" class="list cont">
+<image src="/img/index/outdaili.png"></image>
+<view>退出代理</view>
+</view>
+<view bindtap="jubao" class="list cont">
+<image src="/img/index/jubao.png"></image>
+<view>乱价举报</view>
+</view>
+<view bindtap="fankui" class="list cont">
+<image src="/img/index/fankui.png"></image>
+<view>意见反馈</view>
+</view>
+</view>
+</view>
+
+
+  <!-- 
+  <view class="container">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+  </view>
+   -->
+

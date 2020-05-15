@@ -1,0 +1,40 @@
+/* pages/user/address/add/add.wxss */
+.list{
+  width: 93%;
+  height: 88rpx;
+  border-bottom:2rpx solid #EEEEEE;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 30rpx;
+  margin: 30rpx;
+}
+
+.list input{
+  text-align: right;
+  width: 70%;
+  height:100%;
+  font-size: 26rpx;
+}
+.list image{
+  width: 28rpx;
+  height: 30rpx;
+}
+.wx-switch-input{width:76rpx !important;height:36rpx !important;}
+.wx-switch-input::before{width:73rpx !important;height: 36rpx !important;}
+.wx-switch-input::after{width: 42rpx !important;height: 36rpx !important;margin-left: -10rpx;margin-right: -10rpx;margin-bottom: 10rpx;}
+.but{
+  width:500rpx;
+  height: 70rpx;
+  background-color: #FF853A;
+  color: #FFFFFF;
+  font-size: 32rpx;
+  margin-left: 14%;
+  margin-top: 300rpx;
+  border-radius: 10rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}

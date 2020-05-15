@@ -1,0 +1,68 @@
+<!--pages/bohuo/bohuo.wxml-->
+<view class="types">
+<span>请选择代理</span>
+
+<view class="select_box">
+  <view class='select' catchtap='selectTap'>
+        <text class='select_text'>{{selectData[index]}}</text> 
+        <image class='select_img {{show&&"select_img_rotate"}}' src='/img/heirig.png'></image>
+  </view>
+      <view class='option_box' style='height:{{show?(selectData.length>5?300:selectData.length*60):0}}rpx;'>
+        <text class='option' style='{{index==selectData.length-1&&"border:0;"}}' wx:for='{{selectData}}' wx:key='this' data-index='{{index}}' catchtap='optionTap'>{{item}}          </text>
+      </view>
+
+</view>
+
+</view>
+
+
+<image src="/img/bigcom.png"></image>
+<view class="comname">
+<view class="left">
+<span>{{title}}</span>
+<span style="color:#FF0202;">￥{{price}}</span>
+</view>
+<view class="ber">
+ <view class="carts-num"> 
+          <lable class="minus" bindtap="btn_minus" data-obj="{{obj}}" data-index="{{index}}">-</lable>
+          <label class="view_text_center"  bindinput='input_num' data-index="{{index}}">{{num}}</label>
+          <lable class="plus" bindtap="btn_add" data-index="{{index}}">+</lable>     
+  </view>
+ <span>共<text>{{num}}</text>套</span>
+</view>
+</view>
+
+
+
+<view class="bot">
+<span>您选择了<text>4</text>件商品</span>
+<view class="right row">
+<view  style="color:#333333;">
+总计
+<span style="color:#FF0000;">￥<text>1999</text></span>
+</view>
+<view bindtap="show" class="cli row" style="color:#FFFFFF;background-color:#FF853A; ">拨货</view>
+</view>
+</view>
+
+ <view class="hide{{showView?'':'show'}}">  
+       <!--遮罩层  -->
+       <view class="shade">  
+           <!--面板内容  -->
+           <view class="conts">  
+              <view class="ytop row">确认信息</view>
+              <view class="ytitle">
+              <span>下级代理：<text style="color:#FF0101">李梦溪</text></span>
+              <span>产品数量：<text  style="color:#FF0101">46</text>件</span>
+              <span>总计：<text  style="color:#FF0101">￥1635.0</text></span>
+              <span>确定拨货吗？</span>
+              </view>
+
+          <view class="row">
+              <view bindtap="close" class="bott row" style=" border-bottom-left-radius: 30rpx;background-color:#F0F0F0;">取消</view>
+              <view bindtap="close" class="bott row" style=" border-bottom-right-radius: 30rpx;background-color:#FF853A;color: #FFFFFF; ">确定</view>
+          </view>
+
+           </view>   
+       </view>  
+   </view>    

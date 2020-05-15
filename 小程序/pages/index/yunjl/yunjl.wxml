@@ -1,0 +1,78 @@
+<!--pages/index/yunjl/yunjl.wxml-->
+<view class="top row1">
+<view class="navs colum1" style="border-right:2rpx solid #FFFFFF;">
+<span>本月进库(件）</span>
+<span style="font-size:56rpx;">120</span>
+</view>
+<view class="navs colum1">
+<span>本月出库(件）</span>
+<span style="font-size:56rpx;">100</span>
+</view>
+</view>
+
+<view class="navbar">
+  <text wx:for="{{navbar}}" data-idx="{{index}}" class="item {{currentTab==index ? 'active' : ''}}" wx:key="unique" bindtap="navbarTap">{{item}}</text>
+</view>
+ 
+<!---->
+<view hidden="{{currentTab!=0}}">
+<view class="list column"> 
+
+<view class="time">
+<view>时间</view>
+<view class="row">
+<image src="/img/time.png"></image>
+<span>2019-09-23 14:06</span>
+</view>
+</view>
+
+<view class="comm row">
+<view class="left row">
+<image src="/img/user.png"></image>
+<view class="column" style="line-height: 50rpx;">
+<span>我是产品名称</span>
+<span>+12件</span>
+</view>
+</view>
+
+<view class="right column">
+<span style="font-size:32rpx;">12件</span>
+</view>
+
+</view>
+
+</view>
+
+</view>
+ 
+<!---->
+<view hidden="{{currentTab!=1}}">
+<view class="list column"> 
+
+<view class="time">
+<view>时间</view>
+<view class="row">
+<image src="/img/time.png"></image>
+<span>2019-09-23 14:06</span>
+</view>
+</view>
+
+<view class="comm row">
+
+<view class="left row">
+<image src="/img/user.png"></image>
+<view class="column" style="line-height: 50rpx;">
+<span>我是产品名称</span>
+<span>+12件</span>
+</view>
+</view>
+
+<view class="right column">
+<span style="font-size:32rpx;">12件</span>
+</view>
+
+</view>
+
+</view>
+
+</view>

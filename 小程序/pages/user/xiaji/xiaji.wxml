@@ -1,0 +1,38 @@
+<!--pages/user/xiaji/xiaji.wxml-->
+<view class="list">
+<view class="left">
+<view class="img">
+<image src="/img/user.png"></image>
+<span>李悦溪</span>
+</view>
+<view class="user img">
+<span><p>代理级别</p>县级代理</span>
+<span><p>手机号码</p>13286559556</span>
+<span><text>注册时间：</text>2019-09-23</span>
+</view>
+</view>
+<!-------->
+<view class="right">
+<span style="color:#FF853A;font-size:36rpx;">199</span>
+<span style="font-size:26rpx;">本月业绩</span>
+</view>
+</view>
+
+<view class="list">
+<view class="left">
+<view class="img">
+<image src="/img/user.png"></image>
+<span>李悦溪</span>
+</view>
+<view class="user img">
+<span><p>代理级别</p>县级代理</span>
+<span><p>手机号码</p>13286559556</span>
+<span><text>注册时间：</text>2019-09-23</span>
+</view>
+</view>
+<!-------->
+<view class="right">
+<span style="color:#FF853A;font-size:36rpx;">199</span>
+<span style="font-size:26rpx;">本月业绩</span>
+</view>
+</view>

@@ -1,0 +1,47 @@
+/* pages/user/address/address.wxss */
+.list{
+  width: 93%;
+  height: 220rpx;
+  border-bottom: 2rpx solid #EEEEEE; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 30rpx;
+}
+.row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.dele{
+  width:120rpx;
+  height: 40rpx;
+  color:#FF0000;
+  text-align: center;
+  border: 2rpx solid #FF0000; 
+  margin-right: 30rpx;
+}
+.txt{
+  width:120rpx;
+  height: 40rpx;
+  color:#999999;
+  text-align: center;
+  border: 2rpx solid #999999; 
+}
+
+.but{
+  width:500rpx;
+  height: 70rpx;
+  border: 2rpx solid #FF853A;
+  color: #FF853A;
+  font-size: 32rpx;
+  margin-left: 14%;
+  position: absolute;
+  bottom: 30rpx;
+  border-radius: 10rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}

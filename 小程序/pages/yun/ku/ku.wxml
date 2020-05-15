@@ -1,0 +1,67 @@
+<!--pages/comm/comm.wxml-->
+<!--pages/my/myorder/myorder.wxml-->
+
+<view class="navbar">
+  <text wx:for="{{navbar}}" data-idx="{{index}}" class="item {{currentTab==index ? 'active' : ''}}" wx:key="unique" bindtap="navbarTap">{{item}}</text>
+</view>
+ 
+<!---->
+<view hidden="{{currentTab!=0}}">
+<view class="list">
+<view class="time">
+<view>时间</view>
+<view class="row">
+<image src="/img/time.png"></image>
+<text>2019-09-23 14:06</text>
+</view>
+</view>
+<view class="comm row">
+<view class="left row">
+<image src="/img/user.png"></image>
+<view class="column" style="line-height: 50rpx;">
+<span>我是产品名称</span>
+<span>288/件</span>
+</view>
+</view>
+<view bindtap="xiangqing" class="right column">
+<span>8件</span>
+</view>
+</view>
+</view>
+
+<!---------------->
+<view class="list">
+<view class="time">
+
+<view>时间</view>
+<view class="row">
+<image src="/img/time.png"></image>
+<text>2019-09-23 14:06</text>
+</view>
+</view>
+<view class="comm row">
+<view class="left row">
+<image src="/img/user.png"></image>
+<view class="column" style="line-height: 50rpx;">
+<span>我是产品名称</span>
+<span>288/件</span>
+</view>
+</view>
+<view bindtap="xiangqing" class="right column">
+<span>8件</span>
+</view>
+</view>
+
+</view>
+
+ </view>
+<!---->
+<view hidden="{{currentTab!=1}}">
+2
+</view>
+
+ 
+
+
+
+

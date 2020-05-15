@@ -1,0 +1,81 @@
+<!--pages/user/user.wxml-->
+<view class="content">
+
+<view class="banner">
+<view class="user">
+<view style="display: flex;flex-direction:row;">
+<image src="/img/user/user.png"></image>
+<view style="display: flex;flex-direction: column;line-height: 50rpx">
+<text>王小月</text>
+<p style="width:112rpx;height:30rpx;background-color: #EB831D;font-size:22rpx;display: flex;flex-direction:row;align-items: center;justify-content: center;">市级代理</p>
+</view>
+</view>
+<view bindtap="userinfo" class="info">
+<text>个人资料</text>
+<image src="/img/bairig.png"></image>
+</view>
+</view>
+
+<view class="shou">
+<view class="comm">
+<text>本月收益</text>
+<text>12</text>
+</view>
+<view class="comm">
+<text>累计收益</text>
+<text>12</text>
+</view>
+<view class="comm">
+<text>我的库存</text>
+<text>68</text>
+</view>
+</view>
+</view>
+
+<view class="top">
+
+<view  bindtap="yeji" class="comm" style=" height:140rpx;">
+<image src="/img/user/yeji.png"></image>
+<text>我的业绩</text>
+</view>
+<view bindtap="tihuo" class="comm" style=" height: 140rpx;">
+<image src="/img/user/tuihuo.png"></image>
+<text>我要提货</text>
+</view>
+<view bindtap="xiaji" class="comm" style=" height: 140rpx;">
+<image src="/img/user/xiaji.png"></image>
+<text>我的下级</text>
+</view>
+<view  bindtap="shouquan" class="comm" style=" height: 140rpx;">
+<image src="/img/user/shouquan.png"></image>
+<text>我的授权</text>
+</view>
+</view>
+
+<view bindtap="shouyi" class="list row">
+<view class="row">
+<image src="/img/user/yongjin.png"></image>
+<text>收益记录</text>
+</view>
+<image style=" width:25rpx; height: 35rpx;  margin-right: 15rpx;" src="/img/heirig.png"></image>
+</view>
+
+<view  bindtap="tuandui" class="list row">
+<view class="row">
+<image src="/img/user/jixiao.png"></image>
+<text>我的团队</text>
+</view>
+<image style=" width:25rpx; height: 35rpx;  margin-right: 15rpx;" src="/img/heirig.png"></image>
+</view>
+
+<view bindtap="address" class="list row">
+<view class="row">
+<image src="/img/user/site.png"></image>
+<text>地址管理</text>
+</view>
+<image style=" width:25rpx; height: 35rpx;  margin-right: 15rpx;" src="/img/heirig.png"></image>
+</view>
+
+
+
+</view>

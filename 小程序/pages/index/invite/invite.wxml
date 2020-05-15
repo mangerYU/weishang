@@ -1,0 +1,5 @@
+<!--pages/index/invite/invite.wxml-->
+<image src="/img/invite.png"></image>
+<view class="tit">邀请码</view>
+<image class="user" src="/img/user.png"></image>
+<view class="txt">长按保存图片 分享好友扫描二维码</view>
